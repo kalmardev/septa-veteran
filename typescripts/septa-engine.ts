@@ -3,3 +3,5 @@ function greeter(person: string) {
 }
 
 let user = "Some New User";
+
+greeter(user);

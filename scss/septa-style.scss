@@ -1,0 +1,23 @@
+
+$primary-font-color: #000;
+$header-background-color: #6b7afc;
+$header-font-color: #fff;
+$content-background-color: #d0d0d0;
+
+body {
+  color: $primary-font-color;
+}
+
+.container:first-child {
+  margin-top: 5px;
+}
+
+.navbar {
+  color: $header-font-color;
+  background-color: $header-background-color;
+  border-radius: 10px 10px 0px 0px;
+}
+
+.content {
+  background-color: $content-background-color;
+}

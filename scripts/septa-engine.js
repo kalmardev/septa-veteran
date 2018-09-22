@@ -1,4 +1,6 @@
+"use strict";
 function greeter(person) {
     return "Hello, " + person;
 }
-var user = "Some New User";
+let user = "Some New User";
+greeter(user);
