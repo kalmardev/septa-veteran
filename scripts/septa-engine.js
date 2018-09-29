@@ -1,6 +1,13 @@
 "use strict";
-function greeter(person) {
-    return "Hello, " + person;
+function init(content) {
+    console.log("init load");
+    console.log(content)
+    $(".content").empty();
+    $(".content").append(content);
 }
-let user = "Some New User";
-greeter(user);
+let mainContent = "Main Content Loaded";
+
+$(document).ready(function() {
+    init(mainContent);
+});
+
